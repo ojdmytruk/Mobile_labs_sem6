@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AB8BC34A"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:text="Морський шлях з Європи до Індії прокладено експедицією, яку очолював" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rgroup_india"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbutton_polo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Марко Поло" />
+
+            <RadioButton
+                android:id="@+id/rbutton_vespucci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Амеріго Віспуччі" />
+
+            <RadioButton
+                android:id="@+id/rbutton_kuk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Джеймс Кук" />
+
+            <RadioButton
+                android:id="@+id/rbutton_gama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Васко да Гама" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Чому середньорічні температури повітря знижуються від екватора до полюсів?" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cbox_pressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="знижується атмосферний тиск над суходолом" />
+
+        <CheckBox
+            android:id="@+id/cbox_hight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="знижується абсолютна висота поверхні" />
+
+        <CheckBox
+            android:id="@+id/cbox_lattitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="зменшується географічна широта" />
+
+        <CheckBox
+            android:id="@+id/cbox_angle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="зменшується кут падіння сонячних променів" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Ok" />
+
+    <TextView
+        android:id="@+id/tv_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="відповідь" />
+
+
+</LinearLayout>

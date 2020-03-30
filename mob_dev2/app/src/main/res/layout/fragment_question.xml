@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#B0E0E6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#191970"
+        android:text="@string/question" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cbox_pressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pressure" />
+
+        <CheckBox
+            android:id="@+id/cbox_hight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hight" />
+
+        <CheckBox
+            android:id="@+id/cbox_lattitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lattitude" />
+
+        <CheckBox
+            android:id="@+id/cbox_angle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/angle" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#191970"
+        android:text="@string/ok"
+        android:textColor="#ADD8E6"/>
+
+</LinearLayout>

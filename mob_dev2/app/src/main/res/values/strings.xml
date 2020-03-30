@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">mob_dev2</string>
+    <string name="question">Чому середньорічні температури повітря знижуються від екватора до полюсів?</string>
+    <string name="lattitude">зменшується географічна широта</string>
+    <string name="pressure">знижується атмосферний тиск над суходолом</string>
+    <string name="angle">зменшується кут падіння сонячних променів</string>
+    <string name="hight">знижується абсолютна висота поверхні</string>
+    <string name="ok">Ok</string>
+    <string name="default_text">Оберіть відповідь</string>
+    </resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#3F51B5">
+
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:background="#C667E1F1"
+        android:onClick="audioActivity"
+        android:text="Музика" />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:background="#0CA2E6"
+        android:onClick="videoActivity"
+        android:text="Відео" />
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:background="#576DE8"
+        android:onClick="downloadActivity"
+        android:text="Завантажити медіа" />
+
+</LinearLayout>

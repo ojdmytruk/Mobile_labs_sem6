@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:orientation="vertical"
+    tools:context=".DownloadActivity">
+
+    <EditText
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C667E1F1"
+        android:textColor="#7C302A2A"
+        android:text="Введіть посилання..."/>
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="DOWNLOAD"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:onClick="playFile"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
